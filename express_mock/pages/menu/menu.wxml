@@ -1,0 +1,6 @@
+<!--menu.wxml-->
+<view class="container men-list">
+  <block wx:for="{{menulist}}" wx:for-item="item" wx:key="*this">
+    <view>{{index}} {{item.name}}</view>
+  </block>
+</view>
