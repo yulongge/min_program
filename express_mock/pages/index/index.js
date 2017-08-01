@@ -3,7 +3,8 @@
 var app = getApp()
 Page({
   data: {
-    motto: '开始吧',
+    motto: '菜单列表',
+    toEat: "猜饭",
     userInfo: {}
   },
   //事件处理函数
@@ -15,6 +16,11 @@ Page({
   bindMenuTap: function() {
     wx.navigateTo({
       url: '../menu/menu'
+    })
+  },
+  bindToEatTap: function () {
+    wx.navigateTo({
+      url: '../toeat/toeat'
     })
   },
   onLoad: function () {

@@ -1,6 +1,13 @@
 <!--menu.wxml-->
-<view class="container men-list">
+<view class="container menu-list">
   <block wx:for="{{menulist}}" wx:for-item="item" wx:key="*this">
-    <view>{{index}} {{item.name}}</view>
+    <view class="menu-item">
+      <view class="menu-item-image">
+        <image src="{{item.image}}" class="pic"/>
+      </view>
+      <view class="menu-item-name">
+        {{item.name}}
+      </view> 
+    </view>
   </block>
 </view>

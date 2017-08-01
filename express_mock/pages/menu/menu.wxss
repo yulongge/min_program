@@ -1,0 +1,24 @@
+.menu-list {
+
+}
+.menu-item {
+  width: 100%;
+  text-align: left;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 10px;
+  
+}
+.menu-item-image {
+  flex: 1;
+  padding-left: 20px;
+}
+.menu-item-name {
+  flex: 1;
+}
+.pic {
+  width: 100px;
+  height: 100px;
+}
